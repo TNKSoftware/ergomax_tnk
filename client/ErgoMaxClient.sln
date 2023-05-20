@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErgoMaxClient", "ErgoMaxClient\ErgoMaxClient.csproj", "{5FA905A6-4CC4-4B6A-B4FF-4D19C9EDD90E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{26CD0092-9351-4D9D-958E-9D65CE04CA58} = {26CD0092-9351-4D9D-958E-9D65CE04CA58}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErgoMaxRawHID", "ErgoMaxRawHID\ErgoMaxRawHID.csproj", "{26CD0092-9351-4D9D-958E-9D65CE04CA58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FA905A6-4CC4-4B6A-B4FF-4D19C9EDD90E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FA905A6-4CC4-4B6A-B4FF-4D19C9EDD90E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FA905A6-4CC4-4B6A-B4FF-4D19C9EDD90E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FA905A6-4CC4-4B6A-B4FF-4D19C9EDD90E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26CD0092-9351-4D9D-958E-9D65CE04CA58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26CD0092-9351-4D9D-958E-9D65CE04CA58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26CD0092-9351-4D9D-958E-9D65CE04CA58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26CD0092-9351-4D9D-958E-9D65CE04CA58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A09162CD-D5B8-414D-B802-ADAA7B09C37D}
+	EndGlobalSection
+EndGlobal
