@@ -25,6 +25,10 @@ A built firmware is including in "build" folder. Write this hex file by [QML Too
 - **hex2bmp.py** : Convert unscii hex data to bitmap image.
 - **bmp2code.py** : Convert 8x16 font bitmap to c code as glcdfont.
 
+"client" folder contains a library and sample program for displaying unicode characters and bitmap images via serial communication between a PC and thi keyboard in the C# language.
+
+If you get an error about HidLibrary when compiling the library, please install the library of the same name from Nuget.
+
 ## :yen: Donate, please!
 [![Donate For Free Project](https://www.tnksoft.com/donate/donate.svg "Donate For Free Project")](https://www.tnksoft.com/donate/)
 
